@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>disneyops.github.io</title>
+    <description>Disney Operations Blog.</description>
+    <link>http://disneyops.github.io//</link>
+    <atom:link href="http://disneyops.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 03 May 2015 19:50:39 -0700</pubDate>
+    <lastBuildDate>Sun, 03 May 2015 19:50:39 -0700</lastBuildDate>
+    <generator>Jekyll v2.5.2</generator>
+    
+      <item>
+        <title>Disney is off to ChefConf!</title>
+        <description>&lt;p&gt;Be sure to attend ChefConf this year! Disney Systems Engineering will be talking about DevOps Culture, running your own Supermarket, a cool new orchestration tool, and more. Don’t miss it!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Mar 2015 04:00:00 -0800</pubDate>
+        <link>http://disneyops.github.io//jekyll/update/2015/03/01/disney-at-chefconf.html</link>
+        <guid isPermaLink="true">http://disneyops.github.io//jekyll/update/2015/03/01/disney-at-chefconf.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

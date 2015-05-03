@@ -1,48 +1,26 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Disneyops.GitHub.io by disneyops</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+---
+layout: default
+---
 
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/disneyops">View On GitHub</a></li>
-        </nav>
-      </div><!-- end header -->
+<div class="home">
 
-    <div class="wrapper">
+  <h1 class="page-heading">Posts</h1>
 
-      <section>
-        <div id="title">
-          <h1>Disneyops.GitHub.io</h1>
-          <p>Disney Operations Blog</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/disneyops">disneyops</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h3>
-<a id="disney-is-off-to-chefconf" class="anchor" href="#disney-is-off-to-chefconf" aria-hidden="true"><span class="octicon octicon-link"></span></a>Disney is off to ChefConf!</h3>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-<p>Be sure to attend ChefConf this year! Disney Systems Engineering will be talking about DevOps Culture, running your own Supermarket, a cool new orchestration tool, and more. Don't miss it!</p>
-      </section>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</div>
 
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
-</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<!--[if !IE]><script>fixScale(document);</script><![endif]-->   

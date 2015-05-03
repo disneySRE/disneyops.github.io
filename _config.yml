@@ -1,0 +1,19 @@
+# Site settings
+title: disneyops.github.io
+email: disneyops@disneyops.com # REPLACE
+description: Disney Operations Blog.
+url: "http://disneyops.github.io/" # the base hostname & protocol for your site
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+
+# Serving
+detach:  false
+port:    4000
+host:    127.0.0.1
+baseurl: "" # does not include hostname
+
+# Build settings
+markdown: kramdown
