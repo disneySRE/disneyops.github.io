@@ -1,2 +1,2 @@
-# disneyops.github.io
-Disney Operations Blog
+# disneySRE.github.io
+Disney SRE Blog
