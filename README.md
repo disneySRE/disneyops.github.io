@@ -1,2 +1,2 @@
-# disneySRE.github.io
+# disneysre.github.io
 Disney SRE Blog
